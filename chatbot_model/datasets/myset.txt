@@ -1,0 +1,74 @@
+hi
+hi brother!
+how are you?
+I am good, ask me something
+what is your name
+My name is Bighero and I am you virtual assistance
+what is the date today
+check your calender
+haha
+are you mad dev!!!
+help me
+how can I help you developer?
+can you please help
+how can I help you developer?
+cricket live score api
+live score api: https://rapidapi.com/manojkumarch2020/api/cricket-live-scores4
+bubble sort
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high. Code Link: https://www.programiz.com/dsa/bubble-sort
+what is bubble sort
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high. Code Link: https://www.programiz.com/dsa/bubble-sort
+tell me about bubble sort
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high. Code Link: https://www.programiz.com/dsa/bubble-sort
+tell me about linked list
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. learn more: https://www.geeksforgeeks.org/data-structures/linked-list
+tell me about array
+An array is a collection of items stored at contiguous memory locations. learn more: https://www.geeksforgeeks.org/array-data-structure
+tell me about map function
+Code here: https://www.w3schools.com/jsref/jsref_map.asp
+tell me about dictionary
+Dictionaries are used to store data values in key:value pairs. Learn more: https://www.w3schools.com/python/python_dictionaries.asp
+what is react
+React is a JavaScript library created by Facebook. React is a User Interface (UI) library. React is a tool for building UI components
+tell me about node js
+Node.js is an open source server environment. Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). Node.js uses JavaScript on the server
+what is node js
+Node.js is an open source server environment. Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). Node.js uses JavaScript on the server
+Node js
+Node.js is an open source server environment. Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.). Node.js uses JavaScript on the server
+tell me about binary heap
+It’s a complete tree All levels are completely filled except possibly the last level and the last level has all keys as left as possible. This property of Binary Heap makes them suitable to be stored in an array.
+what is binary heap
+It’s a complete tree All levels are completely filled except possibly the last level and the last level has all keys as left as possible. This property of Binary Heap makes them suitable to be stored in an array.
+insertion sort
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+tell me about insertion sort
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+what is an insertion sort
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+merge sort
+The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+what is a merge sort
+The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+tell me about merge sort
+The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm. In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+quick sort
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+what is quick sort
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+tell me about quick sort
+Like Merge Sort, QuickSort is a Divide and Conquer algorithm. It picks an element as a pivot and partitions the given array around the picked pivot. There are many different versions of quickSort that pick pivot in different ways. 
+heap sort
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+tell me about heap sort
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+what is heap sort
+Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to the selection sort where we first find the minimum element and place the minimum element at the beginning. Repeat the same process for the remaining elements.
+iterative heap sort
+HeapSort is a comparison based sorting technique where we first build Max Heap and then swaps the root element with last element (size times) and maintains the heap property each time to finally make it sorted. Code: https://www.geeksforgeeks.org/iterative-heap-sort
+tell me about iterative heap sort
+HeapSort is a comparison based sorting technique where we first build Max Heap and then swaps the root element with last element (size times) and maintains the heap property each time to finally make it sorted. Code: https://www.geeksforgeeks.org/iterative-heap-sort
+what is iterative heap sort
+HeapSort is a comparison based sorting technique where we first build Max Heap and then swaps the root element with last element (size times) and maintains the heap property each time to finally make it sorted. Code: https://www.geeksforgeeks.org/iterative-heap-sort
+what is dsa?
+The term DSA stands for Data Structures and Algorithms. As the name itself suggests, it is a combination of two separate yet interrelated topics – Data Structure and Algorithms. Read More: https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/#whatIsAlgo

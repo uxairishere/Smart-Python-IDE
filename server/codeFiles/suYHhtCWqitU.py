@@ -1,0 +1,3 @@
+
+a=true
+print(a)

@@ -1,0 +1,14 @@
+File,Error,Output,Links
+<string>,unexpected EOF while parsing," breakets must be closed,check the brackets in the code ",https://www.freecodecamp.org/news/syntaxerror-unexpected-eof-while-parsing-python-error-solved/
+<string>,name  is not defined,define the value befoure using it.,https://www.educba.com/python-nameerror/
+<string>,name 'true' is not defined,please capitalize the Alphabet T in true,https://realpython.com/python-boolean/
+<string>,name 'false' is not defined,please capitalize the Alphabet F in false,https://realpython.com/python-boolean/
+<string>,name 'contnue' is not defined,the word is continue speeling mistake,"https://www.w3schools.com/python/ref_keyword_continue.asp,https://www.tutorialspoint.com/python/python_loop_control.htm"
+<pyshell#4>,ZeroDivisionError: integer division or modulo by zero,you are deviding value with zero not allowed,"http://net-informations.com/python/err/zero.htm,https://learn.sourcegraph.com/how-to-troubleshoot-python-zerodivisionerror"
+<pyshell#1>,ValueError: math domain error,can not use negetive number in sqrt function,"https://blog.finxter.com/python-math-domain-error/,https://appdividend.com/2022/07/27/how-to-solve-math-domain-error-in-python/"
+programs,IndexError: list index out of range,"When using a while-loop, always check the logic of the starting and ending conditions while using lists . Remember that
+the digital world generally lists arrays starts counting with 0, not 1.","https://rollbar.com/blog/python-indexerror/,https://www.stechies.com/fix-list-index-out-range-python/"
+sample.py,TypeError: 'NoneType' object is not subscriptable,"The error is self-explanatory. You are trying to subscript an object which you think is a list or dict, but actually is None.You are applying  operation on a wrong variable check the variable(list,dict) first",http://net-informations.com/python/err/nonetype.htm
+sample.py,IndexError: string index out of range,the length of character in a string is less than the number you used ,http://net-informations.com/python/err/range.htm
+sample.py,IndentationError: unexpected indent,your code has spacing issues check the code blocks and remove extra spaces,http://net-informations.com/python/err/indent.htm
+sample.py,ValueError: too many values to unpack ,the return values are,
