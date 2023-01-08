@@ -16,40 +16,44 @@ const Footer = () => {
               <ul class="footer b list-group">
                 <li class="footer b list-group-item">React js </li>
                 <li class="footer b list-group-item">Node js </li>
-                <li class="footer b list-group-item">Uxair abbas</li>
-                <li class="footer b list-group-item">Nabeel chaudhary </li>
-                <li class="footer b list-group-item">The return of Can we talk</li>
+                <li class="footer b list-group-item">Python</li>
+                <li class="footer b list-group-item">MongoDB</li>
+                <li class="footer b list-group-item">Chatterbot (NLP)</li>
+                <li class="footer b list-group-item">Error Recog (NLP)</li>
+                <li class="footer b list-group-item">Bootstrap 5.2</li>
+
+
               </ul>
 
             </div>
             <div class="footer col-sm">
               <h6 class="footer footer_header__IT1IT ">Resources</h6>
               <ul class="footer b list-group">
-                <li class="footer b list-group-item">React js </li>
-                <li class="footer b list-group-item">Node js </li>
-                <li class="footer b list-group-item">Uxair abbas</li>
-                <li class="footer b list-group-item">Nabeel chaudhary </li>
-                <li class="footer b list-group-item">The return of Can we talk</li>
+              <li class="footer b list-group-item">React Docs </li>
+                <li class="footer b list-group-item">Stack Overflow</li>
+                <li class="footer b list-group-item">Real Python</li>
+                <li class="footer b list-group-item">Python 3.7</li>
+                <li class="footer b list-group-item">NLTK</li>
+                <li class="footer b list-group-item">Pandas</li>
+                <li class="footer b list-group-item">NumPay</li>
               </ul>
             </div>
             <div class="footer col-sm">
               <h6 class="footer footer_header__IT1IT ">Company</h6>
               <ul class="footer b list-group">
-                <li class="footer b list-group-item">React js </li>
-                <li class="footer b list-group-item">Node js </li>
-                <li class="footer b list-group-item">Uxair abbas</li>
-                <li class="footer b list-group-item">Nabeel chaudhary </li>
-                <li class="footer b list-group-item">The return of Can we talk</li>
+                <li class="footer b list-group-item">NUML</li>
+                <li class="footer b list-group-item">Smart Code</li>
+                <li class="footer b list-group-item">Bootstrap CDN</li>
+                <li class="footer b list-group-item">Tech</li>
+                <li class="footer b list-group-item">Open A.I</li>
               </ul>
             </div>
             <div class="footer col-sm">
-              <h6 class="footer footer_header__IT1IT ">Legal</h6>
+              <h6 class="footer footer_header__IT1IT ">Developers</h6>
               <ul class="footer b list-group">
-                <li class="footer b list-group-item">React js </li>
-                <li class="footer b list-group-item">Node js </li>
-                <li class="footer b list-group-item">Uxair abbas</li>
-                <li class="footer b list-group-item">Nabeel chaudhary </li>
-                <li class="footer b list-group-item">The return of Can we talk</li>
+                <li class="footer b list-group-item">Uzair Abbas </li>
+                <li class="footer b list-group-item">Ch.M.Zaryab Waheed</li>
+                <li class="footer b list-group-item">Muhammad Nabeel</li>
               </ul>
             </div>
           </div>

@@ -148,7 +148,9 @@ export default function Editorcomp() {
               {/* error links */}
               {error_links ?
                 error_links.map((val, idx) => (
-                  <a href={val} target="_blank" className='btn btn-warning'>Solution here</a>
+                  
+                  <a href={val} target="_blank" className='btn btn-warning' style={{marginRight: '1rem'}}>Solution here</a>
+                  
                 ))
                 :
                 null
