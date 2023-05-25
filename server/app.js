@@ -7,9 +7,10 @@ const UserRounter = require('./routes/user.route')
 const CompilerRounter = require('./routes/compiler.route')
 const dashboarRouter = require('./routes/dashboard.route')
 const mailerRoute = require('./routes/mailer.route');
+const authRoute = require('./routes/auth.route');
 
 // configure database 
-mongoose.connect('mongodb://localhost:27017/smartide')
+mongoose.connect('mongodb://0.0.0.0:27017/authjwt')
 .then(() => [
     console.log("Database connected successfully")
 ])
@@ -27,6 +28,7 @@ app.use('/', UserRounter);
 app.use('/', CompilerRounter);
 app.use('/', dashboarRouter);
 app.use('/', mailerRoute);
+app.use('/auth', authRoute);
 
 app.listen(process.env.PORT, () => {
     console.log("SERVER RUNNING ON PORT: " + process.env.PORT)
