@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import jwt_decode from "jwt-decode";
+import { refreshToken } from "../../lib/hooks/useRefreshAuth";
 
 export default function Login() {
     const [user, setUser] = useState(null);
@@ -9,27 +10,6 @@ export default function Login() {
     const [error, setError] = useState(false);
     const [success, setSuccess] = useState(false);
 
-    const refreshToken = async () => {
-        try {
-            if (!user || !user.refreshToken) {
-                console.log("User or refreshToken is missing");
-                return;
-            }
-    
-            const res = await axios.post("http://localhost:5000/auth/api/token", { token: user.refreshToken });
-            console.log("WHO: ", user)
-            setUser({
-                name: user.name,
-                email: user.email,
-                accessToken: res.data.accessToken,
-                refreshToken: res.data.refreshToken,
-            });
-            return res.data;
-        } catch (err) {
-            console.log(err);
-        }
-    };
-
     const axiosJWT = axios.create()
 
     axiosJWT.interceptors.request.use(
@@ -37,7 +17,7 @@ export default function Login() {
             let currentDate = new Date();
             const decodedToken = jwt_decode(user.accessToken);
             if (decodedToken.exp * 1000 < currentDate.getTime()) {
-                const data = await refreshToken();
+                const data = await refreshToken(user, setUser);
                 config.headers["authorization"] = "Bearer " + data.accessToken;
             }
             return config;
