@@ -17,8 +17,10 @@ export default function Login() {
             }
     
             const res = await axios.post("http://localhost:5000/auth/api/token", { token: user.refreshToken });
+            console.log("WHO: ", user)
             setUser({
-                ...user,
+                name: user.name,
+                email: user.email,
                 accessToken: res.data.accessToken,
                 refreshToken: res.data.refreshToken,
             });

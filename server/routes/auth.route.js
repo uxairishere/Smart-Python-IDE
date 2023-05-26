@@ -6,7 +6,7 @@ const multer = require('multer')
 const AuthModel = require('../models/auth.model');
 
 // middleware 
-const { generateAccessToken, authenticateToken } = require('../middlewares/authware');
+const { generateAccessToken, authenticateToken, generateRefreshToken } = require('../middlewares/authware');
 
 let refreshTokens = [];
 
@@ -17,8 +17,12 @@ router.post('/api/token', (req,res) => {
     if (!refreshTokens.includes(refreshToken)) res.sendStatus(403)
     jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, user) => {
         if (err) res.sendStatus(403)
-        const accessToken = generateAccessToken({ name: user.name, email: user.email })
-        return res.json({accessToken: accessToken})
+        const user_info = { name: user.name, email: user.email }
+        const accessToken = generateAccessToken(user_info);
+        const newRefreshToken = generateRefreshToken(user_info);
+
+        refreshTokens.push(newRefreshToken);
+        return res.json({accessToken: accessToken, refreshToken: newRefreshToken})
     })
 })
 
